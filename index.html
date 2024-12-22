@@ -10,32 +10,32 @@
 </head>
 
 <body>
-    <!-- Game Container -->
   <div class="game-container">
-    <h1>Mini Game</h1>
-
-    <!-- Game Information -->
-    <div id="game-info">
-      <p>Score: <span id="score">0</span></p>
-      <p>Lives: <span id="lives">3</span></p>
+    <h1>Rock, Paper, Scissors Game</h1>
+    
+    <div class="game-controls">
+        <button class="game-button" id="rockButton">Rock</button>
+        <button class="game-button" id="paperButton">Paper</button>
+        <button class="game-button" id="scissorsButton">Scissors</button>
     </div>
 
-    <!-- Game Area -->
-    <div id="game-area">
-      <!-- This area can be customized depending on the game -->
-      <div id="player" class="game-object"></div> <!-- Player element -->
-      <!-- More game elements will go here, like obstacles, targets, etc. -->
+    <div class="scoreboard">
+        <p><strong>Wins:</strong> <span id="wins">0</span></p>
+        <p><strong>Losses:</strong> <span id="losses">0</span></p>
+        <p><strong>Ties:</strong> <span id="ties">0</span></p>
     </div>
 
-    <!-- Game Controls (Optional) -->
-    <div id="controls">
-      <button id="start-btn">Start Game</button>
-      <button id="pause-btn" disabled>Pause Game</button>
-      <button id="restart-btn" disabled>Restart Game</button>
+    <div class="result">
+        <p id="resultMessage">Make your choice!</p>
+        <p id="computerChoiceMessage"></p>
     </div>
-  </div>
-  <div>
-    <script src="./Assets/script.js"></script>
+
+    <div class="play-again">
+        <button id="playAgainButton" class="hidden">Play Again</button>
+    </div>
+</div>
+
+<script src="/Assets/script.js"></script>
 </body>
 <footer> 
     <p>&copy; 2024 Joshua James Porfilio. All rights reserved.</p>
