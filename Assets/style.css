@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #a86c48;
     color: white;
     padding: 20px;
 }
@@ -21,6 +21,8 @@ header {
     padding: 15px 30px;
     margin: 10px;
     cursor: pointer;
+    background-color: #5b2c22;
+    color: antiquewhite;
 }
 
 button:focus {
@@ -31,11 +33,13 @@ button:focus {
     margin-top: 20px;
     font-size: 24px;
     font-weight: bold;
+    color: #5b2c22;
 }
 
 #scoreBoard {
     margin-top: 10px;
     font-size: 20px;
+    color: #5b2c22;
 }
 
 footer {
@@ -45,5 +49,12 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #f0f0f0;
 }
 
