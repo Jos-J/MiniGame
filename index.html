@@ -11,23 +11,27 @@
 
 <body>
     <header>
-        <!-- Add header content here -->
+        <h1>Rock, Paper, Scissors Game</h1>
     </header>
+    
     <main>
         <div class="container">
             <div class="buttons">
-            <button type="button"> <span id="Rock"></span> Rock </button>
-            <button type="button"> Paper </button>
-            <button type="button"> Scissors </button>
-        </div>
+                <!-- Added IDs to buttons for better targeting -->
+                <button id="rockBtn">Rock</button>
+                <button id="paperBtn">Paper</button>
+                <button id="scissorsBtn">Scissors</button>
+            </div>
+
+            <div id="result"></div> <!-- Display game result -->
+            <div id="scoreBoard"></div> <!-- Display score: Wins, Ties, Losses -->
 
         </div>
-            
-        <!-- Add main content here -->
     </main>
    
     <script src="./Assets/script.js"></script>
 </body>
+
 <footer>
     <p>&copy; 2024 Joshua James Porfilio. All rights reserved.</p>
     <a href="https://www.linkedin.com/in/joshuajames">LinkedIn</a> |
