@@ -1,5 +1,7 @@
 # MiniGame
 Trying to build a Game using only JavaScript
+* to play the minigame click here ---> [Minigame](https://jos-j.github.io/MiniGame/)
+
 
 ## Instructions 
 The completed application should meet the following criteria:
@@ -13,6 +15,7 @@ The completed application should meet the following criteria:
 * As a user, I want the option to play again whether I win or lose.
 
 * As a user, I want to see my total wins, ties, and losses after each round.
+
 
 ### Specifications
 
